@@ -83,7 +83,7 @@ masukkan warna: hitam
 
 Maka output-nya adalah:
 
-titik (10, 20) berewarna hijau.
+titik (5, 5) berewarna hitam.
 -----------------------------------------------------------------------------------------
 
 <img width="848" height="356" alt="image" src="https://github.com/user-attachments/assets/09ab1493-5166-4742-a996-5a9b181d0517" />
