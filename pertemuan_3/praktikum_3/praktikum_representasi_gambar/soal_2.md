@@ -1,5 +1,6 @@
 
 x1, y1 = 0, 0
+
 x2, y2 = 5, 3
 
 - Mendefinisikan titik awal `(x1, y1)` dan titik akhir `(x2, y2)`.
@@ -41,7 +42,8 @@ for i in range(n + 1):
 ------------------------------------------------------------------------------------------
 
 Berikut hasil yang akan dicetak:
-<img width="610" height="572" alt="Screenshot 2025-10-28 142350" src="https://github.com/user-attachments/assets/6a81a122-00f9-4f50-891f-b06a6bfaf104" />
+<img width="1060" height="616" alt="image" src="https://github.com/user-attachments/assets/cb190416-e7d4-4876-be70-5f6e852a8306" />
+
 
 
 
