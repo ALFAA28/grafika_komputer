@@ -1,8 +1,8 @@
 
-lebar = 10
-tinggi = 5
-x = 3
-y = 2
+    lebar = 10
+    tinggi = 5
+    x = 3
+    y = 2
 
 - `lebar = 10` → jumlah kolom dalam grid.
 - `tinggi = 5` → jumlah baris dalam grid.
@@ -10,13 +10,13 @@ y = 2
   koordinat `(3, 2)`.
 -----------------------------------------------------------------------------------------
 
-print("Simulasi Koordinat Layar (10x5):\n")
+    print("Simulasi Koordinat Layar (10x5):\n")
 
 Menampilkan judul simulasi sebelum mencetak grid.
 -----------------------------------------------------------------------------------------
 
-for row in range(tinggi):
-    for col in range(lebar):
+    for row in range(tinggi):
+        for col in range(lebar):
 
 - Perulangan luar (`row`) berjalan dari 0 sampai 4 (total 5 baris).
 - Perulangan dalam (`col`) berjalan dari 0 sampai 9 (total 10 kolom).
