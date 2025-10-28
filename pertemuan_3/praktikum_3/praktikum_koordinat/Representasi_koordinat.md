@@ -1,11 +1,11 @@
 
-print("Simulasi Koordinat Layar (10x5):")
+    print("Simulasi Koordinat Layar (10x5):")
 
 Menampilkan judul atau keterangan bahwa program akan mensimulasikan tampilan layar 
 berukuran 10 kolom dan 5 baris.
 -----------------------------------------------------------------------------------------
 
-for y in range(0, 5):
+    for y in range(0, 5):
 
 Melakukan perulangan sebanyak 5 kali (dari `y = 0` hingga `y = 4`) untuk mewakili 
 **baris** pada layar.
