@@ -1,5 +1,5 @@
 
-def tentukan_kuadran(x, y):
+    def tentukan_kuadran(x, y):
 
 Mendefinisikan fungsi untuk menentukan posisi titik `(x, y)` dalam sistem koordinat
 kartesius.
@@ -47,8 +47,8 @@ Titik berada di **sumbu Y** jika `x = 0` dan `y ≠ 0`.
 Titik berada di **sumbu X** jika `y = 0` dan `x ≠ 0`.
 ----------------------------------------------------------------------------------------
 
-def main():
-    print("Program Menghitung Jarak dan Kuadran Titik\n")
+    def main():
+        print("Program Menghitung Jarak dan Kuadran Titik\n")
 
 Menampilkan judul program.
 ----------------------------------------------------------------------------------------
@@ -94,8 +94,8 @@ Menampilkan hasil:
 Menangani kesalahan jika input bukan angka, agar program tidak crash.
 ----------------------------------------------------------------------------------------
 
-if __name__ == "__main__":
-    main()
+    if __name__ == "__main__":
+        main()
 
 Menjalankan fungsi `main()` hanya jika file ini dijalankan langsung, bukan diimpor 
 sebagai modul.
