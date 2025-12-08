@@ -215,10 +215,16 @@ class Fighter():
             if self.action == 2:
                 self.set_action(0)
         
+        RIGHT_PADDING = -50 # <--- PADDING BARU
+        RIGHT_EDGE = screen_width - RIGHT_PADDING
+        
+        # Batasan Kiri (tetap 0)
         if self.rect.left + dx < 0:
             dx = -self.rect.left
-        if self.rect.right + dx > screen_width:
-            dx = screen_width - self.rect.right
+            
+        # Batasan Kanan (diperbarui dengan padding)
+        if self.rect.right + dx > RIGHT_EDGE:
+            dx = RIGHT_EDGE - self.rect.right
         
         if dx == 0 and self.alive == True and controls is None:
             self.flip = target.rect.centerx < self.rect.centerx
@@ -294,4 +300,5 @@ class Fighter():
                                               (self.size * final_scale, self.size * final_scale))
         img = pygame.transform.flip(scaled_image, self.flip, False)
         
+
         surface.blit(img, (x_pos, y_pos))
