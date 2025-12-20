@@ -1,5 +1,5 @@
 1. Judul Proyek
-"Aplikasi Game Dino Sprite Runner dengan Implementasi Algoritma Grafika Dasar"
+"Aplikasi Game Dino Runner dengan Implementasi Algoritma Grafika Dasar"
 
 2. Konsep Grafika yang Digunakan
 Aplikasi ini menerapkan empat konsep utama dalam grafika komputer:
